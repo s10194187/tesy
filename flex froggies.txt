@@ -1,0 +1,70 @@
+Index.html
+Contact.html
+
+<a href = "Contact.html">Contact</a>'
+
+Contact
+
+Band history
+band members
+book shows(&availability)
+
+songs
+photos
+video
+
+links to external sources & social media
+///
+Flexbox-Froggy - CSS cheatsheet
+
+justify-content: (Aligns flex items along the main axis)
+-flex-start
+-flex-end
+-center
+-space-between
+-space-around
+
+align-items: (Aligns flex items along the cross axis)
+-flex-start
+-flex-end
+-center
+-baseline
+-stretch
+
+flex-direction: (Defines the direction of the main axis)
+-row
+-row-reverse
+-column
+-column-reverse
+
+order: (Specifies the order of the flex item)
+<integer> (-1,0,1,2)
+
+align-self: (Aligns a flex items along the cross axis, overriding the align-items 
+value)
+-flex-start
+-flex-end
+-center
+-baseline
+-stretch
+
+flex-wrap: (Specifies whether flex items are forced on a single line or can be 
+wrapped on mutiple lines)
+-nowrap
+-wrap
+-wrap-reverse
+
+flex-flow:(Shorthand property for flex-direction and flex-wrap)
+e.g: flex-flow: <flex-direction> <flex-wrap> 
+
+align-content:(Aligns a flex container's lines within the flex container when there 
+is extra space on the cross-axis)
+-flex-start
+-flex-end
+-center
+-space between
+-space-around
+-stretch
+(This ccan be confusing, but align-content determines the spacing between lines, 
+while align-items determines how the items as a whole are aligned within the container. 
+When there is only one line, align-content has no effect)
